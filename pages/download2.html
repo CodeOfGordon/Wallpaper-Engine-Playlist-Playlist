@@ -1,0 +1,52 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallpaper Engine Playlist Playlist</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+
+<header class="header">The Wallpaper Engine Playlist <em>Playlist</em></header>
+
+<body>
+    <form onsubmit="submission2()" action="index.html">
+        <p class="introduction">
+            This program will create files that automatically open up your wallpaper playlists for Wallpaper Engine
+            <br><br>
+            What it will do is create one file that will change the actual playlist (the .bat file),
+            <br>
+            while the other will just the terminal that pops up when you run it (the .vbs file).
+            <br><br>
+            <strong>Enter the information below to create the .vbs file.</strong>
+        </p>
+        
+        <div class="directory-box">
+            <label>
+                Enter the directory of the folder your .bat file will be in
+                <br>
+                <em>(If you don't have one now, create it, and enter its directory here!)</em>
+            </label>
+            <br><br>
+
+            <input type="text" id="batch-input"
+            placeholder="C:\Users\gordo\Documents\Wallpaper_playlist_playlist" required>
+
+        </div>
+    
+        <div class="playlist-file">
+            <label>Enter the name of the playlist you want it to change it to</label>
+            <br><br>
+
+            <input type="text" id="playlist" placeholder="Chill 2AM Wallpapers" disabled="disabled">
+        </div>
+    
+        <div>
+            <input type="submit">
+        </div>
+
+    </form>
+    
+    <script src="../script2.js"></script> 
+    
+</body>

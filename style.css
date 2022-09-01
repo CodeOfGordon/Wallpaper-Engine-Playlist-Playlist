@@ -1,0 +1,63 @@
+.header {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 100;
+}
+
+/* navigation bar */
+
+.navbar {
+    list-style: none;
+    display: inline-block;
+    block-size: 2em;
+    text-decoration: none;
+    background-color: #2DA9DB;
+    width:100%;
+}
+
+.navbar li {
+    float: left;
+    margin-right: 1em;
+    background-color: #2DA9DB;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+/* Box sections */
+
+.introduction {
+    margin-left:2em;
+}
+
+.directory-box {
+    margin: 50px;
+}
+
+.playlist-file {
+    margin: 50px;
+}
+
+
+/* text boxe, buttons*/
+
+#directory-input {
+    width: 600px;
+}
+
+#batch-input {
+    width: 600px;
+}
+
+.playlist {
+    width: 400px;
+}
+
+.entry {
+    margin-left: 2em;
+}

@@ -1,0 +1,54 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallpaper Engine Playlist Playlist</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+
+<body>
+    <ul class="navbar">
+        <li><a href="download.html">Download</a></li>
+        <li><a href="instructions.html">Instructions</a></li>
+    </ul>
+
+    <header class="header">The Wallpaper Engine Playlist <em>Playlist</em></header>
+    
+    <form onsubmit="submission()" action="index2.html">
+        <p class="introduction">
+            This program will create files that automatically open up your wallpaper playlists for Wallpaper Engine
+            <br><br>
+            What it will do is create one file that will change the actual playlist (the .bat file),
+            <br>
+            while the other will prevent a terminal from appearing when running it (the .vbs file).
+            <br><br>
+            <strong>Enter the information below to create the .bat file.</strong>
+        </p>
+        
+        <div class="directory-box">
+            <label>Enter the directory to your wallpaper engine here</label>
+            <br><br>
+
+            <input type="text" id="directory-input" 
+            value="C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper32.exe" 
+            placeholder="C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper32.exe">
+
+        </div>
+    
+        <div class="playlist-file">
+            <label>Enter the name of the playlist you want it to change it to</label>
+            <br><br>
+
+            <input type="text" id="playlist" placeholder="Chill 2AM Wallpapers">
+        </div>
+    
+        <div>
+            <input type="submit">
+        </div>
+
+    </form>
+    
+    <script src="../script.js"></script> 
+    
+</body>
