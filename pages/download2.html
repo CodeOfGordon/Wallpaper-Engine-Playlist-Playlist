@@ -7,32 +7,30 @@
 </head>
 
 
-<body>
-    <ul class="navbar">
-        <li><a href="download.html">Download</a></li>
-        <li><a href="instructions.html">Instructions</a></li>
-    </ul>
+<header class="header">The Wallpaper Engine Playlist <em>Playlist</em></header>
 
-    <header class="header">The Wallpaper Engine Playlist <em>Playlist</em></header>
-    
-    <form onsubmit="submission()" action="index2.html">
+<body>
+    <form onsubmit="submission2()" action="download.html">
         <p class="introduction">
             This program will create files that automatically open up your wallpaper playlists for Wallpaper Engine
             <br><br>
             What it will do is create one file that will change the actual playlist (the .bat file),
             <br>
-            while the other will prevent a terminal from appearing when running it (the .vbs file).
+            while the other will just the terminal that pops up when you run it (the .vbs file).
             <br><br>
-            <strong>Enter the information below to create the .bat file.</strong>
+            <strong>Enter the information below to create the .vbs file.</strong>
         </p>
         
         <div class="directory-box">
-            <label>Enter the directory to your wallpaper engine here</label>
+            <label>
+                Enter the directory of the folder your .bat file will be in
+                <br>
+                <em>(If you don't have one now, create it, and enter its directory here!)</em>
+            </label>
             <br><br>
 
-            <input type="text" id="directory-input" 
-            value="C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper32.exe" 
-            placeholder="C:\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper32.exe">
+            <input type="text" id="batch-input"
+            placeholder="C:\Users\gordo\Documents\Wallpaper_playlist_playlist" required>
 
         </div>
     
@@ -40,7 +38,7 @@
             <label>Enter the name of the playlist you want it to change it to</label>
             <br><br>
 
-            <input type="text" id="playlist" placeholder="Chill 2AM Wallpapers">
+            <input type="text" id="playlist" placeholder="Chill 2AM Wallpapers" disabled="disabled">
         </div>
     
         <div>
@@ -49,6 +47,6 @@
 
     </form>
     
-    <script src="../script.js"></script> 
+    <script src="../script2.js"></script> 
     
 </body>
