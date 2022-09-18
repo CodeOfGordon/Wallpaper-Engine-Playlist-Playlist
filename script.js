@@ -37,8 +37,8 @@ function createBatch(playlist_name, wp_engine_directory){
     // (str, str) -> none
 
     var data = (`@ECHO off \n
-set playlist-name=${playlist_name}
-set FileDirectory=${wp_engine_directory} \n
+set playlist-name="${playlist_name}"
+set FileDirectory="${wp_engine_directory}" \n
 %FileDirectory% -control openPlaylist -playlist %playlist-name%
 exit`);
     var file_ext = "bat";
