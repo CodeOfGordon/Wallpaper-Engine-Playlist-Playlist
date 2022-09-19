@@ -3,5 +3,5 @@ This site will help in allowing you to cycle through your Wallpaper Engine playl
 
 Essentially, it is a playlist for Wallpaper Engine playlist.
 
-## The link to the site is the github-pages site found on the bottom right corner or
+## The link to the site is the github-pages site found on the bottom right corner
 ## or by clicking this link https://codeofgordon.github.io/Wallpaper-Engine-Playlist-Playlist/
